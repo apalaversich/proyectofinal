@@ -1,0 +1,13 @@
+/* Mapas */
+$tflores: (
+    color-tflores: #000,
+    fondo-tflores: #fff,
+    
+);
+
+
+.tflores {
+    background-color: map-get($tflores, fondo-tflores);
+    color: map-get($tflores, color-tflores);
+}
+

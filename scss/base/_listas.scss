@@ -1,0 +1,15 @@
+/* Listas */
+
+$color:
+gray,
+black,
+white;
+
+.sec-terapias {
+    background-color: nth($color, 1);
+}
+
+.footer {
+    background-color: nth($color, 2 );
+    color: nth($color, 3);
+}
